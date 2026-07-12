@@ -6,7 +6,7 @@ description: AI的持久化記憶。此skill爲必讀。執行任務前先看記
 
 ---
 
-`<項目根目錄>/Tsinswreng/AiMemory/` 下爲全局AI記憶。 其中 `<項目根目錄>/Tsinswreng/AiMemory/Main.typ`爲主文檔入口
+`<項目根目錄>/.Tsinswreng/AiMemory/` 下爲全局AI記憶。 其中 `<項目根目錄>/.Tsinswreng/AiMemory/Main.typ`爲主文檔入口
 
 ## 何時讀取記憶
 
@@ -25,7 +25,7 @@ description: AI的持久化記憶。此skill爲必讀。執行任務前先看記
 文件結構: 在項目根目錄下:
 
 ```
-Tsinswreng/
+.Tsinswreng/
 	AiMemory/
 		Main.typ
 		Startup/
