@@ -12,6 +12,8 @@ description: AI的持久化記憶。此skill爲必讀。執行任務前先看記
 
 每次執行任務前先看一遍主文檔入口 `Main.typ`。 `Main.typ`中可能會引用其他文檔、你按需讀取。
 
+### 不需要讀取`Obsolete/`下的文件
+
 ## 何時更新記憶
 
 - 每次執行任務後、根據任務結果按需更新記憶。
@@ -51,3 +53,7 @@ description: AI的持久化記憶。此skill爲必讀。執行任務前先看記
 
 - 必須使用typst語法、使用.typ文件、不使用markdown
 - 標題盡量用 auto-heading 庫
+
+## 整理記憶
+
+當用戶明確要求你整理記憶時纔看 [TrimMemory.typ](TrimMemory.typ)
